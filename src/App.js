@@ -51,6 +51,7 @@ function App() {
   return (
     <>
       <h1>Meka's Hello World Todo List React App</h1>
+      <h6>From <a href="https://www.youtube.com/watch?v=hQAHSlTtcmY" target="_blank" rel="noppener noreferrer">This YouTube Video</a></h6>
       <TodoList todos={todos} toggleTodo={toggleTodo} />
       <input id="todoInput" ref={todoNameRef} type="text" onKeyPress={handleKeyDown}/>
       <button id="addTodoBtn" onClick={handleAddTodo}>Add Todo</button>
